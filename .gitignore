@@ -1,0 +1,56 @@
+# Python virtual muhit
+venv/
+env/
+*.venv
+*.env
+
+# Python kompilyatsiya fayllari
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Maxsus loyiha papkalari va fayllari
+accounts/           # Hisob ma'lumotlari saqlanadigan papka
+sessions/           # Sessiya fayllari saqlanadigan papka
+migrations/         # Agar alembic migratsiyalardan tashqari qo‘shimcha migratsiya fayllari bo‘lsa
+app.log             # Log fayli
+.env                # Maxfiy konfiguratsiya fayli
+
+# Alembic konfiguratsiyasi (agar saqlashni xohlamasangiz)
+# alembic.ini       # Agar saqlamoqchi bo‘lsangiz, bu qatorni o‘chirib tashlang
+# migrations/versions/  # Agar migratsiya fayllarini saqlamoqchi bo‘lsangiz, o‘chirib tashlang
+
+# Databaza fayllari
+*.db
+*.sqlite3
+*.sql
+
+# IDE va muharrir fayllari
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Python paketlari va dependency fayllari
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+
+# Temporary fayllar
+*.tmp
+*.bak
+*.swp
+
+# Statik va media fayllar (agar loyihada saqlanmasligi kerak bo‘lsa)
+static/
+media/
+
+# MacOS tizim fayllari
+.DS_Store
+
+# Windows tizim fayllari
+Thumbs.db
+Desktop.ini
